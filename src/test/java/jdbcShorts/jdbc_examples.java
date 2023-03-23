@@ -1,4 +1,4 @@
-package jdbctests;
+package jdbcShorts;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -16,7 +16,7 @@ public class jdbc_examples {
 
         Connection connection = DriverManager.getConnection(dbUrl,dbUsername,dbPassword);
         Statement statement = connection.createStatement();
-        ResultSet resultSet = statement.executeQuery("SELECT * FROM departments");
+        ResultSet resultSet = statement.executeQuery("SELECT * FROM regions");
 
 //        //move to first row
 //        resultSet.next();

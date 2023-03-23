@@ -1,11 +1,11 @@
-package jdbctests;
+package jdbcShorts;
 
 import java.sql.*;
 
 public class TestConnection {
 
     public static void main(String[] args) throws SQLException {
-        String dbUrl = "jdbc:oracle:thin:@44.202.119.26:1521:XE";
+        String dbUrl = "jdbc:oracle:thin:@44.197.123.56:1521:XE";
         String dbUsername = "hr";
         String dbPassword = "hr";
 
